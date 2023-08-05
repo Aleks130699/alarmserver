@@ -15,7 +15,7 @@ hassio_role: manager
 init: false  
   
   
-startup: before
+startup: application
 ports:
   15002/tcp: 15002
   21/tcp: 21
